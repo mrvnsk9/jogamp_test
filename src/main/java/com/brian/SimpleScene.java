@@ -5,6 +5,8 @@ import com.jogamp.opengl.util.Animator;
 import javax.media.opengl.*;
 import javax.media.opengl.awt.GLCanvas;
 import java.awt.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 /**
  * Created by brian on 10/3/14.
@@ -67,9 +69,9 @@ public class SimpleScene implements GLEventListener {
         frame.add(canvas);
         frame.setVisible(true);
 
-        frame.addWindowListener(new java.awt.event.WindowAdapter() {
+        frame.addWindowListener(new WindowAdapter() {
             @Override
-            public void windowClosing(java.awt.event.WindowEvent e) {
+            public void windowClosing(WindowEvent e) {
                 System.exit(0);
             }
         });
