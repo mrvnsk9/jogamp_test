@@ -1,7 +1,6 @@
 package com.brian;
 
 import com.jogamp.opengl.util.Animator;
-import com.jogamp.opengl.util.FPSAnimator;
 
 import javax.media.opengl.*;
 import javax.media.opengl.awt.GLCanvas;
