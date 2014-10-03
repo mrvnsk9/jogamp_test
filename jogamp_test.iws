@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa5c980f-d1e5-474e-88bc-e690895c3627" name="Default" comment="" />
+    <list default="true" id="aa5c980f-d1e5-474e-88bc-e690895c3627" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/brian/SimpleScene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brian/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/brian/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jogamp_test.iws" afterPath="$PROJECT_DIR$/jogamp_test.iws" />
+    </list>
     <ignored path="jogamp_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,17 +37,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brian/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74556214" vertical-offset="0" max-vertical-offset="882">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+              <caret line="36" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#708#878#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleScene.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/brian/SimpleScene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7656805" vertical-offset="487" max-vertical-offset="1476">
+              <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#690#860#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+                <element signature="e#1740#1741#0" expanded="true" />
+                <element signature="e#1779#1780#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,6 +80,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/brian/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brian/SimpleScene.java" />
       </list>
     </option>
   </component>
@@ -544,7 +561,7 @@
       <changelist id="aa5c980f-d1e5-474e-88bc-e690895c3627" name="Default" comment="" />
       <created>1412346503515</created>
       <updated>1412346503515</updated>
-      <workItem from="1412346508719" duration="2477000" />
+      <workItem from="1412346508719" duration="4178000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1412349118331</created>
@@ -558,7 +575,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2477000" />
+    <option name="totallyTimeSpent" value="4178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="33" width="1256" height="1442" extended-state="0" />
@@ -628,14 +645,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brian/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74556214" vertical-offset="0" max-vertical-offset="882">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <caret line="36" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#708#878#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brian/SimpleScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7656805" vertical-offset="487" max-vertical-offset="1476">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#690#860#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1779#1780#0" expanded="true" />
           </folding>
         </state>
       </provider>
