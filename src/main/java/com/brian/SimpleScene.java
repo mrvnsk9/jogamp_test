@@ -1,10 +1,8 @@
 package com.brian;
 
-import com.jogamp.newt.event.WindowAdapter;
-import com.jogamp.newt.event.WindowEvent;
-import com.jogamp.newt.opengl.GLWindow;
-
 import javax.media.opengl.*;
+import javax.media.opengl.awt.GLCanvas;
+import java.awt.*;
 
 /**
  * Created by brian on 10/3/14.
@@ -12,24 +10,6 @@ import javax.media.opengl.*;
 public class SimpleScene implements GLEventListener {
     static {
         GLProfile.initSingleton();
-    }
-
-    public void run() {
-        GLProfile glp = GLProfile.getDefault();
-        GLCapabilities caps = new GLCapabilities(glp);
-
-        GLWindow window = GLWindow.create(caps);
-        window.setSize(800, 600);
-        window.setVisible(true);
-        window.setTitle("NEWT Window Test");
-        window.addGLEventListener(this);
-
-        window.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowDestroyNotify(WindowEvent windowEvent) {
-                System.exit(0);
-            }
-        });
     }
 
     @Override
@@ -71,6 +51,22 @@ public class SimpleScene implements GLEventListener {
     }
 
     public static void main(String[] args) {
-        new SimpleScene().run();
+        GLProfile glp = GLProfile.getDefault();
+        GLCapabilities caps = new GLCapabilities(glp);
+        GLCanvas canvas = new GLCanvas(caps);
+
+        Frame frame = new Frame("AWT Window Test");
+        frame.setSize(300, 300);
+        frame.add(canvas);
+        frame.setVisible(true);
+
+        frame.addWindowListener(new java.awt.event.WindowAdapter() {
+            @Override
+            public void windowClosing(java.awt.event.WindowEvent e) {
+                System.exit(0);
+            }
+        });
+
+        canvas.addGLEventListener(new SimpleScene());
     }
 }
