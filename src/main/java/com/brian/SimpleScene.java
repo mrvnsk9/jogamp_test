@@ -77,7 +77,8 @@ public class SimpleScene implements GLEventListener {
 
         canvas.addGLEventListener(new SimpleScene());
 
-        GLAnimatorControl animator = new Animator(canvas);
+        GLAnimatorControl animator = new Animator();
+        animator.add(canvas);
         animator.start();
     }
 }
