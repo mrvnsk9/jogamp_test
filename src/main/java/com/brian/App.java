@@ -18,8 +18,8 @@ public class App
     }
 
     public void run() {
-//        GLProfile glp = GLProfile.getDefault();
-        GLProfile glp = GLProfile.get(GLProfile.GL2);
+        GLProfile glp = GLProfile.getDefault();
+//        GLProfile glp = GLProfile.get(GLProfile.GL2);
         GLCapabilities caps = new GLCapabilities(glp);
 
         GLWindow window = GLWindow.create(caps);
