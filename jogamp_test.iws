@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa5c980f-d1e5-474e-88bc-e690895c3627" name="Default" comment="" />
+    <list default="true" id="aa5c980f-d1e5-474e-88bc-e690895c3627" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brian/SimpleScene.java" afterPath="$PROJECT_DIR$/src/main/java/com/brian/SimpleScene.java" />
+    </list>
     <ignored path="jogamp_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,12 +50,14 @@
       <file leaf-file-name="SimpleScene.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brian/SimpleScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19053255" vertical-offset="559" max-vertical-offset="1404">
-              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.83076924" vertical-offset="234" max-vertical-offset="1620">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1457#1641#0" expanded="true" />
-                <element signature="e#1630#1631#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#1788#1972#0" expanded="true" />
+                <element signature="e#1961#1962#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -591,7 +595,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5391000" />
+    <option name="totallyTimeSpent" value="6399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="33" width="1256" height="1442" extended-state="0" />
@@ -671,12 +675,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brian/SimpleScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19053255" vertical-offset="559" max-vertical-offset="1404">
-          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.83076924" vertical-offset="234" max-vertical-offset="1620">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1457#1641#0" expanded="true" />
-            <element signature="e#1630#1631#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#1788#1972#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
           </folding>
         </state>
       </provider>
