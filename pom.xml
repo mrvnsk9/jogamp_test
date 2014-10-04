@@ -17,25 +17,19 @@
     <dependencies>
         <dependency>
             <groupId>org.jogamp.gluegen</groupId>
-            <artifactId>gluegen-rt</artifactId>
-            <version>2.2.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jogamp.gluegen</groupId>
-            <artifactId>gluegen-rt</artifactId>
-            <version>2.2.1</version>
-            <classifier>natives-linux-amd64</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.jogamp.jogl</groupId>
-            <artifactId>jogl-all</artifactId>
+            <artifactId>gluegen-rt-main</artifactId>
             <version>2.2.1</version>
         </dependency>
         <dependency>
             <groupId>org.jogamp.jogl</groupId>
-            <artifactId>jogl-all</artifactId>
+            <artifactId>jogl-all-main</artifactId>
             <version>2.2.1</version>
-            <classifier>natives-linux-amd64</classifier>
+        </dependency>
+        <!-- vlcj specific dependencies -->
+        <dependency>
+            <groupId>uk.co.caprica</groupId>
+            <artifactId>vlcj</artifactId>
+            <version>3.0.1</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
